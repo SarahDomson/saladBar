@@ -403,6 +403,15 @@ footer {
         padding-left: 50px;
 }
 
+#salad {
+        display: flex;
+        justify-content: space-between;
+}
+
+.frame {
+        margin-top: 45px;
+}
+
 #send {
         display: inline-flex;
         align-items: center;
@@ -437,8 +446,9 @@ footer {
 .FOOTER {
         display: flex;
         justify-content: space-between;
-        width: 1299px;
+        width: 1618px;
         margin-top: 40px;
+        padding-left: 50px;
 }
 
 #footer2 {
@@ -454,6 +464,33 @@ footer {
         color: black;
 }
 
-.copyright p {
-        float: left;
+.info {
+       display: inline-flex;
+       flex-direction: column;
+       align-items: flex-start;
+       gap: 40px;
+}
+
+.address {
+       display: flex;
+       gap: 16px;
+       align-items: baseline;
+       font-family: DM Sans;
+       font-size: 14px;
+       font-style: normal;
+       font-weight: 400;
+       color: #FEFEFE;
+       line-height: 22px; /* 157.143% */
+}
+
+.details {
+       
+}
+.flex {
+        display: flex;
+        gap: 80px;   
+}
+
+.copyright {
+      padding-left: 400px;
 }
