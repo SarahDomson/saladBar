@@ -390,6 +390,53 @@ button {
         cursor: pointer;
 }
 
+.img_container {
+        
+}
+
+.builder2 {
+        display: flex;
+}
+.flex {
+        margin-top: 30px;
+        display: flex;
+}
+
+.img_child {
+        width: 630px;
+        height: 240px;
+        
+}
+
+.special {
+        padding-left: 40px;
+}
+
+.rectangle {
+        padding-left: 20px;
+        margin-top: 10px;
+}
+
+.special h5 {
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+        color: #1A5D1A;
+        width: 232px;
+        height: 67px;
+}
+
+.special p {      
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 32px; /* 133.333% */
+        color: #F1C93B;
+}
+
 footer {
         margin-top: 20px;
         background-color: #1A5D1A;
@@ -420,12 +467,13 @@ footer {
 }
 
 .news {
-        color: var(--Light, #FEFEFE);
         font-family: DM Sans;
         font-size: 18px;
         font-style: normal;
         font-weight: 400;
         line-height: normal;
+        color: #FEFEFE;
+        opacity: ;
 }
 
 #send_btn {
@@ -443,6 +491,16 @@ footer {
         background-color: white;
 }
 
+#email {
+        font-family: DM Sans;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #010101;
+        opacity: 0.55;
+}
+
 .FOOTER {
         display: flex;
         justify-content: space-between;
@@ -452,7 +510,7 @@ footer {
 }
 
 #footer2 {
-        font-family: DM Sans;
+        font-family: DM Sans, sans-serif;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
@@ -461,7 +519,7 @@ footer {
         display: flex;
         justify-content: space-between;
         gap: 41px;
-        color: black;
+        color: #FEFEFE;
 }
 
 .info {
@@ -482,15 +540,15 @@ footer {
        color: #FEFEFE;
        line-height: 22px; /* 157.143% */
 }
-
-.details {
-       
-}
-.flex {
-        display: flex;
-        gap: 80px;   
-}
-
+ 
 .copyright {
-      padding-left: 400px;
+        font-family: Assistant;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        color: #FEFEFE;
+        padding-left: 400px;
+        opacity: 0.5;
+
 }
